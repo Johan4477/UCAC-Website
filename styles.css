@@ -1,0 +1,163 @@
+/* Resetting default styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #090808;
+    color: #fff;
+}
+
+/* Header Styles */
+header {
+    background-color: #33333300;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px; /* Adjust the height as needed */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Container Styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Hero Section Styles */
+.hero-section {
+    background-image: url('./Assets/F1PdwUHWAAEVgh5.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2a2929;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Additional Styles */
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+    color: white;
+}
+
+.group-section {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.group {
+    margin-bottom: 30px;
+}
+
+.group h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.group p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.group-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.throws-image {
+    height: 25px; /* Adjust height for the throws image */
+}
+
+.membership-info {
+    text-align: center;
+}
+
+.membership-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2, h3 {
+  

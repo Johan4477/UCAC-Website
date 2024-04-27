@@ -77,7 +77,7 @@ nav ul li a:hover {
 }
 
 .btn {
-    background-color: #4CAF50;
+    background-color: #e70c26;
     color: white;
     padding: 15px 20px;
     border: none;
@@ -190,5 +190,40 @@ p {
         font-size: 12px;
     }
 }
-
-  
+/* Accordion Styles */
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+}
+.accordion-header {
+    background-color: #f4f4f4;
+    color: #333;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease;
+    position: relative;
+}
+.accordion-header:hover {
+    background-color: #d31616;
+}
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+.accordion-header.active {
+    background-color: #ddd;
+}
+.accordion-icon::before {
+    content: "+";
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.accordion-header.active .accordion-icon::before {
+    content: "-";
+}
